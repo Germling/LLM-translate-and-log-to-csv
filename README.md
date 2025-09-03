@@ -9,6 +9,10 @@ Translate a TXT file in chunks using a system prompt from a separate file,
 and write a bilingual CSV: one row per source chunk with its translation.
 CSV can be used to be imported into a CAT tool or converted to TMX.
 
+Inputs:
+  - A sysprompt file in TXT format
+  - A source text in TXT format
+
 Outputs:
   - <base>_aligned.csv          (live, appended while running)
   - <base>_aligned_sorted.csv   (final, strictly sorted by chunk index)
