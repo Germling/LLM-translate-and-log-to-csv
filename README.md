@@ -7,6 +7,7 @@ translate_chunks_to_csv.py
 
 Translate a TXT file in chunks using a system prompt from a separate file,
 and write a bilingual CSV: one row per source chunk with its translation.
+CSV can be used to be imported into a CAT tool or converted to TMX.
 
 Outputs:
   - <base>_aligned.csv          (live, appended while running)
