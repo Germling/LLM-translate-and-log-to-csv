@@ -17,6 +17,7 @@ Outputs:
 Usage example in Python prompt:
 
 #Set your API key:
+
 export OPENAI_API_KEY=sk-...
 
 #Run the script with parameters  
